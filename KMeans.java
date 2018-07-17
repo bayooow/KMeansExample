@@ -19,7 +19,7 @@ public class KMeans {
      */
     public static void main(String[] args) {
         //read object data
-        String path = "C:\\Users\\Bayu Aji Firmansyah\\Documents\\NetBeansProjects\\KMeans\\src\\kmeans\\DataTrain.txt";
+        String path = "Your path";
         ArrayList<Data> data = new ArrayList<Data>();
         data = DataBuilder.build(path);
         //input variable
